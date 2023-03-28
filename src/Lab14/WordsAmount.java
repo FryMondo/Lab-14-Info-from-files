@@ -30,7 +30,7 @@ class WordsCounter {
 
 class amountOfWords {
     public static void main(String[] args) {
-        String filePath = "C:\\Users\\Dell 7280\\Desktop\\JavaProject\\src\\Lab14\\filesForTask1\\words.txt";
+        String filePath = "C:\\Users\\Dell 7280\\Desktop\\JavaLabs\\src\\Lab14\\filesForTask1\\words.txt";
         WordsCounter wordsCounter = new WordsCounter();
         if (wordsCounter.counter(filePath) == 0) {
             System.out.println("The result was successfully transferred to the file \"output.txt\"");
