@@ -37,8 +37,8 @@ class Merger {
 
 class MergedFiles {
     public static void main(String[] args) {
-        String destination = "C:\\Users\\Dell 7280\\Desktop\\JavaProject\\src\\Lab14\\filesForTask2\\destination.txt";
-        String baseFile = "C:\\Users\\Dell 7280\\Desktop\\JavaProject\\src\\Lab14\\filesForTask2\\file.";
+        String destination = "C:\\Users\\Dell 7280\\Desktop\\JavaLabs\\src\\Lab14\\filesForTask2\\destination.txt";
+        String baseFile = "C:\\Users\\Dell 7280\\Desktop\\JavaLabs\\src\\Lab14\\filesForTask2\\file.";
         Merger merger = new Merger();
         merger.fileMerge(destination, baseFile);
     }
