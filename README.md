@@ -1,2 +1,2 @@
 # JavaLabs
-This repository is created for Java labs
+This code can take info from files (amount of words or it can merge files)
